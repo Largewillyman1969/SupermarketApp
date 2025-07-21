@@ -22,7 +22,7 @@ const connection = mysql.createConnection({
     user: 'supermarket_surprisein',
     password: '42bb17c6137de681ea3540559d5d22e5abcce776',
     database: 'supermarket_surprisein'
-  });
+  })
 
 connection.connect((err) => {
     if (err) {
